@@ -1,0 +1,45 @@
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 2rem;
+  text-align: center;
+  color: black;
+  background: #E0FFFF;
+}
+
+.container {
+  margin: 2px;
+  padding: 50px;
+  border-radius: 5px;
+  /* background-color: #E6E6FA; */
+  /* background-color: white; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  overflow-wrap: break-word;
+
+}
+
+.sound-card{
+  
+  background: #FFC0CB;
+  padding: 25px;
+  width: 250px;
+  align-content: center;
+  border-radius: 25% 10%;;
+  /* border-radius: 50% 20% / 10% 40%; */
+  /* box-shadow: 3px 3px red, -1em 0 0.4em olive; */
+  /* box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2); */
+}
+.sound-card p{
+  text-align: left;
+}
+
+.zero-margin{
+  margin: 0;
+}
+.zero-margin p{
+  margin: 0;
+  padding: 5px;
+}
